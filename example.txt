@@ -1,0 +1,24 @@
+hero
+500/500
+Count Dooku (233)
+ - Force Choke (5)
+ - Fear (3)
+ - Force Push (10)
+ - Aggressive Tactics (15)
+Maul (185)
+ - Force Push (10)
+ - Force Choke (5)
+ - Tenacity (4)
+ - Endurance (6)
+B1 Battle Droids (36)
+B1 Battle Droids (46)
+ - HQ Uplink (10)
+
+Commands:
+•Fear, Surprise, Intimidation
+•••At Last
+••The Phantom Menace
+•••You Disappoint Me
+••Double the Fall
+•Duel of the Fates
+••••Standing Orders

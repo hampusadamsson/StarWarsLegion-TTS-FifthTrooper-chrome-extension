@@ -1,0 +1,72 @@
+function onload()
+listData = {}
+listData.pts = 499
+listData.armyFaction = 'separatist'
+listData.commandCards = {}
+listData.commandCards[1] = 'Im Your Worst Nightmare'
+listData.commandCards[2] = 'Ambush'
+listData.commandCards[3] = 'Im In Control'
+listData.commandCards[4] = 'Orbital Strike'
+listData.commandCards[5] = 'I Make The Rules Now'
+listData.commandCards[6] = 'Roger, Roger'
+listData.commandCards[7] = 'Standing Orders'
+listData.units = {}
+listData.units[1] = {}
+listData.units[1].unitName = 'Cad Bane'
+listData.units[1].varName = 'cadBane'
+listData.units[1].upgrades = {}
+listData.units[1].upgrades[1] = {name = 'Duck and Cover', varName = 'duckAndCover'}
+listData.units[1].upgrades[2] = {name = 'Electro Gauntlets', varName = 'electroGauntlets'}
+listData.units[2] = {}
+listData.units[2].unitName = 'B1 Battle Droids'
+listData.units[2].varName = 'b1BattleDroids'
+listData.units[2].upgrades = {}
+listData.units[2].upgrades[1] = {name = 'T-Series Tactical Droid', varName = 'tSeriesTacticalDroid'}
+listData.units[3] = {}
+listData.units[3].unitName = 'B1 Battle Droids'
+listData.units[3].varName = 'b1BattleDroids'
+listData.units[3].upgrades = {}
+listData.units[3].upgrades[1] = {name = 'HQ Uplink', varName = 'hqUplink'}
+listData.units[4] = {}
+listData.units[4].unitName = 'B1 Battle Droids'
+listData.units[4].varName = 'b1BattleDroids'
+listData.units[4].upgrades = {}
+listData.units[5] = {}
+listData.units[5].unitName = 'B1 Battle Droids'
+listData.units[5].varName = 'b1BattleDroids'
+listData.units[5].upgrades = {}
+listData.units[6] = {}
+listData.units[6].unitName = 'Droidekas'
+listData.units[6].varName = 'droidekas'
+listData.units[6].upgrades = {}
+listData.units[7] = {}
+listData.units[7].unitName = 'BX Commando Droids Strike Team'
+listData.units[7].varName = 'bxCommandoDroidsStrikeTeam'
+listData.units[7].upgrades = {}
+listData.units[7].upgrades[1] = {name = 'BX-Series Droid Saboteur', varName = 'bxCommandoDroidSaboteurLeader'}
+listData.units[7].upgrades[2] = {name = 'Vibroswords', varName = 'vibroswords'}
+listData.units[8] = {}
+listData.units[8].unitName = 'BX Commando Droids Strike Team'
+listData.units[8].varName = 'bxCommandoDroidsStrikeTeam'
+listData.units[8].upgrades = {}
+listData.units[8].upgrades[1] = {name = 'BX-Series Droid Saboteur', varName = 'bxCommandoDroidSaboteurLeader'}
+listData.units[8].upgrades[2] = {name = 'Vibroswords', varName = 'vibroswords'}
+listData.battlefieldDeck = {}
+listData.battlefieldDeck.objective = {}
+listData.battlefieldDeck.deployment = {}
+listData.battlefieldDeck.conditions = {}
+listData.battlefieldDeck.deployment[1] = 'Battle Lines'
+listData.battlefieldDeck.deployment[2] = 'The Long March'
+listData.battlefieldDeck.deployment[3] = 'Disarray'
+listData.battlefieldDeck.deployment[4] = 'Major Offensive'
+listData.battlefieldDeck.objective[1] = 'Key Positions'
+listData.battlefieldDeck.objective[2] = 'Breakthrough'
+listData.battlefieldDeck.objective[3] = 'Intercept the Transmissions'
+listData.battlefieldDeck.objective[4] = 'Recover the Supplies'
+listData.battlefieldDeck.conditions[1] = 'Clear Conditions'
+listData.battlefieldDeck.conditions[2] = 'Limited Visibility'
+listData.battlefieldDeck.conditions[3] = 'Rapid Reinforcements'
+listData.battlefieldDeck.conditions[4] = 'Hostile Environment'
+self.createButton({click_function = 'dud', function_owner = self, label = '[' .. listData.pts .. ' pts]', position = {0, 0.4, -0.55}, rotation = {0, 180, 0}, scale = {0.5, 0.5, 0.5}, width = 2000, height = 400, font_size = 300, color = {0.7573, 0.7573, 0.7573, 0.01}, font_color = {0.303, 0.1814, 0.0849, 100}})
+end
+function dud() end

@@ -1,0 +1,70 @@
+{
+  "SaveName": "",
+  "GameMode": "",
+  "Date": "",
+  "VersionNumber": "",
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "",
+  "Sky": "",
+  "Note": "",
+  "Rules": "",
+  "TabStates": {},
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": "",
+  "ObjectStates": [
+    {
+      "GUID": "5e2960",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -30.665741,
+        "posY": 0.9088104,
+        "posZ": -24.15387,
+        "rotX": -0.00160418,
+        "rotY": 359.982452,
+        "rotZ": -4.94571736E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "(RENAME ME!) Army Data Disk [499 Points]",
+      "Description": "For quick loading of army lists:\n\nRight Click me and Save Object.\n\nGo to Menu > Objects > Saved Objects > select this Data Disk to load.\n\nInsert Data Disk into Army Loader Mount and Click Load Army to instantly load your army list!",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/785234780862652963/3D489626E9A3E45C9CDEC20A5626EE3732B4173C/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/785234780862653186/7A58CBD9F613D90F6C2B7BC0B82E64614DB2A65C/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "LuaScript": "function onload()\nlistData = {}\nlistData.pts = 499\nlistData.armyFaction = 'separatist'\nlistData.commandCards = {}\nlistData.commandCards[1] = 'Im Your Worst Nightmare'\nlistData.commandCards[2] = 'Ambush'\nlistData.commandCards[3] = 'Im In Control'\nlistData.commandCards[4] = 'Orbital Strike'\nlistData.commandCards[5] = 'I Make The Rules Now'\nlistData.commandCards[6] = 'Roger, Roger'\nlistData.commandCards[7] = 'Standing Orders'\nlistData.units = {}\nlistData.units[1] = {}\nlistData.units[1].unitName = 'Cad Bane'\nlistData.units[1].varName = 'cadBane'\nlistData.units[1].upgrades = {}\nlistData.units[1].upgrades[1] = {name = 'Duck and Cover', varName = 'duckAndCover'}\nlistData.units[1].upgrades[2] = {name = 'Electro Gauntlets', varName = 'electroGauntlets'}\nlistData.units[2] = {}\nlistData.units[2].unitName = 'B1 Battle Droids'\nlistData.units[2].varName = 'b1BattleDroids'\nlistData.units[2].upgrades = {}\nlistData.units[2].upgrades[1] = {name = 'T-Series Tactical Droid', varName = 'tSeriesTacticalDroid'}\nlistData.units[3] = {}\nlistData.units[3].unitName = 'B1 Battle Droids'\nlistData.units[3].varName = 'b1BattleDroids'\nlistData.units[3].upgrades = {}\nlistData.units[3].upgrades[1] = {name = 'HQ Uplink', varName = 'hqUplink'}\nlistData.units[4] = {}\nlistData.units[4].unitName = 'B1 Battle Droids'\nlistData.units[4].varName = 'b1BattleDroids'\nlistData.units[4].upgrades = {}\nlistData.units[5] = {}\nlistData.units[5].unitName = 'B1 Battle Droids'\nlistData.units[5].varName = 'b1BattleDroids'\nlistData.units[5].upgrades = {}\nlistData.units[6] = {}\nlistData.units[6].unitName = 'Droidekas'\nlistData.units[6].varName = 'droidekas'\nlistData.units[6].upgrades = {}\nlistData.units[7] = {}\nlistData.units[7].unitName = 'BX Commando Droids Strike Team'\nlistData.units[7].varName = 'bxCommandoDroidsStrikeTeam'\nlistData.units[7].upgrades = {}\nlistData.units[7].upgrades[1] = {name = 'BX-Series Droid Saboteur', varName = 'bxCommandoDroidSaboteurLeader'}\nlistData.units[7].upgrades[2] = {name = 'Vibroswords', varName = 'vibroswords'}\nlistData.units[8] = {}\nlistData.units[8].unitName = 'BX Commando Droids Strike Team'\nlistData.units[8].varName = 'bxCommandoDroidsStrikeTeam'\nlistData.units[8].upgrades = {}\nlistData.units[8].upgrades[1] = {name = 'BX-Series Droid Saboteur', varName = 'bxCommandoDroidSaboteurLeader'}\nlistData.units[8].upgrades[2] = {name = 'Vibroswords', varName = 'vibroswords'}\nlistData.battlefieldDeck = {}\nlistData.battlefieldDeck.objective = {}\nlistData.battlefieldDeck.deployment = {}\nlistData.battlefieldDeck.conditions = {}\nlistData.battlefieldDeck.deployment[1] = 'Battle Lines'\nlistData.battlefieldDeck.deployment[2] = 'The Long March'\nlistData.battlefieldDeck.deployment[3] = 'Disarray'\nlistData.battlefieldDeck.deployment[4] = 'Major Offensive'\nlistData.battlefieldDeck.objective[1] = 'Key Positions'\nlistData.battlefieldDeck.objective[2] = 'Breakthrough'\nlistData.battlefieldDeck.objective[3] = 'Intercept the Transmissions'\nlistData.battlefieldDeck.objective[4] = 'Recover the Supplies'\nlistData.battlefieldDeck.conditions[1] = 'Clear Conditions'\nlistData.battlefieldDeck.conditions[2] = 'Limited Visibility'\nlistData.battlefieldDeck.conditions[3] = 'Rapid Reinforcements'\nlistData.battlefieldDeck.conditions[4] = 'Hostile Environment'\nself.createButton({click_function = 'dud', function_owner = self, label = '[' .. listData.pts .. ' pts]', position = {0, 0.4, -0.55}, rotation = {0, 180, 0}, scale = {0.5, 0.5, 0.5}, width = 2000, height = 400, font_size = 300, color = {0.7573, 0.7573, 0.7573, 0.01}, font_color = {0.303, 0.1814, 0.0849, 100}})\nend\nfunction dud() end",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  ]
+}
